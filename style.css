@@ -47,6 +47,10 @@ i {
     display: inline;
 }
 
+.list-inline {
+    padding: 0;
+}
+
 i:hover {
    color: rgb(255, 140, 0);
    font-size: 70px;
@@ -56,6 +60,7 @@ i:hover {
 .container {
     width: 700px;
     margin: 0 auto;
+
 }
 
 @media (max-width: 960px) {
@@ -71,9 +76,8 @@ i:hover {
       width: 500px;
     }
   }
-
-
-@media (max-width: 540px) {
+  
+  @media (max-width: 540px) {
     /* For a screen < 540px, this CSS will be read */
     .container {
       width: 300px;
